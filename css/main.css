@@ -1,0 +1,34 @@
+.block {
+  display: block;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+input[type='submit'] {
+  width: 30%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+main {
+  width: 50%;
+}
+
+.vert-space {
+  margin: 10px 0;
+}
+
+@media (max-width: 640px) {
+  input[type='submit'] {
+    width: 100%;
+  }
+  main {
+    width: 90%;
+  }
+}
