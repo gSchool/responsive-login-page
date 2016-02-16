@@ -8,18 +8,20 @@
 
   <body>
 
-    <section>
-      <h1>Login</h1>
-      <form>
-        <label for='email'>Email</label>
-        <input type='email' />
-        <label for='password'>Password</label>
-        <input type='password' minlength='6' />
-        <input type='submit' value='Login' />
+    <main class='centered'>
+      <form id='login-form'>
+        <h1>Login</h1>
+        <label for='email' class='block vert-space'>Email</label>
+        <input type='email' class='block full-width' />
+        <br />
+        <label for='password' class='block vert-space'>Password</label>
+        <input type='password' minlength='6' class='block full-width' />
+        <br />
+        <input type='submit' value='Login' class='block vert-space' />
       </form>
-    </section>
+    </main>
 
     <script src='js/jquery-2.2.0.min.js'></script>
-    <script src='main.js'></script>
+    <script src='js/main.js'></script>
   </body>
 </html>
