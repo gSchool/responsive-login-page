@@ -18,7 +18,7 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+> HTML provides the structure of the document, the DOM API provides accessible methods to that structure, and Javascript allows for logical operations on the API methods to have DOM elements transform into what the user want. JQuery uses all three of these to abstract out the complexity of making the DOM manipulations by simpler DOM selection methods.
 
 ### Acceptance Criteria:
 

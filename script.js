@@ -3,7 +3,8 @@ $(document).ready(function(){
     var valid = validate();
     if( valid ){
       e.preventDefault();
-      $('form').html("<h1>Welcome Message, Bro</h1>"); //prevent the default action
+      var $welcome = ("<h1>Welcome Message, Bro</h1>");
+      $('form').html($welcome); //prevent the default action
     }
 
   })
