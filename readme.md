@@ -18,7 +18,7 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+> HTML is the structure of the page, css is the styling and javascript is the functionality of the page. functionality via javascript is now being blurred with css as many things that used to require javascript can now be done with css/html (form validation, animations, etc). jQuery is an awesome library form more advanced effects but at 25k gzipped, it seems really big for some basic functionality.
 
 ### Acceptance Criteria:
 
