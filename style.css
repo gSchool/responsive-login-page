@@ -2,7 +2,6 @@ main {
   width: 30%;
   margin: 7rem auto;
   font-family: arial, sans-serif;
-
 }
 label {
   display: block;
@@ -19,6 +18,12 @@ input[type="submit"] {
   display: block;
   margin-top: 2rem;
   width: 35%;
+}
+.welcomeMessage {
+  display: none;
+}
+fieldset {
+  border: none;
 }
 
 @media (max-width: 600px) {

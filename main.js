@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  $('form').on('submit', function() {
+    $('.welcomeMessage').fadeIn();
+  });
+});
+
 var email = document.getElementById("email");
 var password = document.getElementById("password");
 
@@ -7,7 +13,6 @@ var validateForm = function(event) {
   if(pass.split("").length <= 6) {
     alert("Password must be longer than 6 characters");
   } else {
-    alert("Thanks for logging in!");
     email.value = "";
     password.value = "";
   }

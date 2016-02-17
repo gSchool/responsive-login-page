@@ -6,13 +6,16 @@
 </head>
 <body>
   <main>
+    <p class="welcomeMessage">Welcome to the thing!</p>
     <h1>Login</h1>
     <form name="myForm" onsubmit="return validateForm(event)">
-      <label for="email">Email</label>
-        <input type="email" required autofocus id="email">
-      <label for="password">Password</label>
-        <input type="password" required minlength="6" name="password" id="password">
-      <input type="submit" value="Login">
+      <fieldset>
+        <label for="email">Email</label>
+          <input type="email" required autofocus id="email">
+        <label for="password">Password</label>
+          <input type="password" required minlength="6" name="password" id="password">
+        <input type="submit" value="Login">
+      </fieldset>
     </form>
   </main>
 
