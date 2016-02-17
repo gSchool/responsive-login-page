@@ -18,7 +18,9 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+
+> The relationship between HTML, JavaScript, the DOM API, and jQuery all input different pieces of code that give the user a reactional experience. The code with all of these can call, request code, pull stats, or append new elements from each language even if in a different file. 
+
 
 ### Acceptance Criteria:
 
