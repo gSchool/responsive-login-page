@@ -6,17 +6,19 @@
 </head>
 <body>
 
-<section>
-    <article class="center">
+<section class="mainSection">
+    <article>
         <h1>Login</h1>
         <form class="fieldset">
             <label for="email">Email</label>
             <br>
             <input type="email" id="email" required>
-            <br>
+            <br><br>
             <label for="password">Password</label>
             <br>
-            <input type="password" id="password" required>
+            <input pattern=".{6,}" title="6 characters minimum" type="password" id="password" required>
+            <br><br>
+            <button type="submit" id="login" class="btn-login">Log In</button>
         </form>
     </article>
 </section>
