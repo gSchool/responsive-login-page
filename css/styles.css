@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
 
 /******************************/
 /* Styling for larger screens */
