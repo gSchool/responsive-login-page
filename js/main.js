@@ -7,7 +7,8 @@ $('.submit').on('click', function(){
   $('fieldset').html(newLabel + newInputs)
 })
 
-$('.yes').on('click', function(){
-  $('fieldset').empty().append("Great! Have a fantastic day!");
+// $('.yes').on('click', function(){
+//   $('fieldset').empty();
+//   $('fieldset').append("Great! Have a fantastic day!")
 
-})
+// });
