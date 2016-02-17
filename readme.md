@@ -19,6 +19,13 @@ You will be building a responsive login page based on the mockup found in the [m
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 > Write your answer here...
+HTML provides the structure of a web page. Think of HTML as the skeleton that everything else attaches to
+
+CSS takes the bones of the HTML and adds the look and feel. CSS can be as simple as colors and shapes or as complex as animation. CSS adds the meat to the skeleton.
+
+JavaScript and the JS library jQuery are scripting languages that add functionality to a webpage. JS is used to work with the text and data a user may input on a web page, or it can pull in other info. JS is what makes our flesh covered skeleton dance.
+
+The DOM API allows for changes to the web page. Adding or removing content based on events, etc. This metaphor has gotten away from me.
 
 ### Acceptance Criteria:
 
