@@ -1,8 +1,15 @@
+/******************/
+/* Global Styling */
+/******************/
 .center {
   text-align: center;
 }
 
-@media (min-width: 376px) {
+
+/******************************/
+/* Styling for larger screens */
+/******************************/
+@media (min-width: 415px) {
   #login-form {
     margin: auto;
     width: 40%;
@@ -19,9 +26,10 @@
  
 }
 
-
-
-@media (max-width: 375px) {
+/***************************************************/
+/* Styling for iPhone 6s sized screens and smaller */
+/***************************************************/
+@media (max-width: 414px) {
   #login-form {
     margin: auto;
     width: 100%;
@@ -30,10 +38,6 @@
   #login-form > input {
     width: 100%;
     margin: 10px 0px;
-  }
-  
-  #login-form > #submit {
-    width: 100%;
   }
  
 }
