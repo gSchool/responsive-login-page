@@ -6,7 +6,7 @@
 }
 
 input:invalid {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 input:valid {
