@@ -18,7 +18,7 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> HTML is the markup language that creates the skeleton (structure) and content for the page. the DOM, or Document Object Model, is the tree-like structure in which the content is organized. Javascript is an a dynamic language that is used for interactive functionality and can allow asynchronous behavior within the DOM, and jQuery is a library that sits on top of Javascript and makes it easier to interact with the DOM and make pages interactive--jQuery(javascript) can create DOM elements or modify the way a page looks or the values within it.
+> HTML is the markup language that creates the skeleton (structure) and content for the page. the DOM, or Document Object Model, is the tree-like structure in which the content is organized. Javascript is a dynamic language that is used for interactive functionality and can allow asynchronous behavior within the DOM, and jQuery is a library that sits on top of Javascript and makes it easier to interact with the DOM and make pages interactive--jQuery(javascript) can create DOM elements or modify the way a page looks or the values within it.
 
 ### Acceptance Criteria:
 

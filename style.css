@@ -1,0 +1,31 @@
+main {
+  width: 30%;
+  margin: 7rem auto;
+  font-family: arial, sans-serif;
+
+}
+label {
+  display: block;
+  padding: 1rem 0 0.25rem 0;
+  margin: 1rem 0 0.25rem 0;
+}
+input {
+  display: block;
+}
+input[type="email"], input[type="password"] {
+  width: 100%;
+}
+input[type="submit"] {
+  display: block;
+  margin-top: 2rem;
+  width: 35%;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 90%;
+  }
+  input[type="submit"] {
+    width: 100%;
+  }
+}
