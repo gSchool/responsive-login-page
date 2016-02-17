@@ -18,3 +18,9 @@ input[type = email] {
 input[type = submit] {
   width: 100px;
 }
+
+@media only screen and (max-width: 500px) {
+    input[type = submit] {
+        width: 300px;
+    }
+}
