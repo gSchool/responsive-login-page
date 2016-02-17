@@ -1,0 +1,31 @@
+main {
+  margin: auto;
+  width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 500px) {
+
+}
+
+@media(max-width: 500px) {
+  main {
+    width: 100%;
+    padding: 5%;
+    margin: 5%;
+  }
+  #login {
+    width: 100%;
+  }
+}

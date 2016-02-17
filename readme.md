@@ -24,7 +24,7 @@ __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 
 * The login form must be centered on a wide view
 * The login button should take up the same width as an input box on a small view
-* The password field correctly hides passwords
+** The password field correctly hides passwords
 * HTML5 Form Validation is added to each input field
   * Email must be correctly formatted
   * Password must be longer than six characters
