@@ -1,0 +1,34 @@
+/*General formatting */
+
+header {
+  font-size: 50px;
+  text-align: center;
+}
+
+fieldset {border: none;}
+
+
+.submit {
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+}
+
+
+
+
+/*Small window*/
+@media (max-width:400px) {
+input {
+width: 100%;
+}
+
+}
+
+/*larger window*/
+@media (min-width:401px) {
+  form {
+    text-align: center;
+  }
+  label {text-align: left;}
+}
