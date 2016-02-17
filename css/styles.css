@@ -1,0 +1,51 @@
+/******************/
+/* Global Styling */
+/******************/
+.center {
+  text-align: center;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+
+/******************************/
+/* Styling for larger screens */
+/******************************/
+@media (min-width: 415px) {
+  #login-form {
+    margin: auto;
+    width: 40%;
+  }
+  
+  #login-form > input {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  
+  #login-form > #submit {
+    width: 40%;
+  }
+ 
+}
+
+/***************************************************/
+/* Styling for iPhone 6s sized screens and smaller */
+/***************************************************/
+@media (max-width: 414px) {
+  #login-form {
+    margin: auto;
+    width: 100%;
+  }
+  
+  #login-form > input {
+    width: 100%;
+    margin: 10px 0px;
+  }
+ 
+}
