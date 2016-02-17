@@ -4,6 +4,6 @@ $(document).ready(function() {
 
 $('.signin').on("submit", function() {
  event.preventDefault();
- $('.signin').replaceWith('<h3>Welcome to the Future</h3>');
+ $('.signin').replaceWith('<h3 class="welcome">Welcome to the Future</h3>');
 });
 

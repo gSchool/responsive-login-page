@@ -20,7 +20,6 @@ input {
     padding: 5px;
     margin: 15px 0;
     width: 50%;
-
 }
 
  button {   
@@ -46,5 +45,14 @@ input {
     .signin {
       margin-left: 0px;
     }
+}
+
+/*welcome message*/
+
+.welcome {
+  text-align: center;
+  color: 666;
+  padding: 10px;
+  border: 2px double blue;
 }
 
