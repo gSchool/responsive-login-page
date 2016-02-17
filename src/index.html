@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <main>
+      <h1>Login</h1>
+      <div class="forms">
+        <form method="post" class="minimal">
+          <label for="username">
+            Username:
+            <input type="text" name="username" id="username" placeholder="Username must be between 8 and 20   characters" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+           </label>
+          <label for="password">
+            Password:
+            <input type="password" name="password" id="password" placeholder="Password must contain 1     uppercase, lowercase and number" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+          </label>
+           <button type="submit" class="btn-minimal">Sign in</button>
+        </form>
+        </div>
+  
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+      <script type="text/javascript" src="js/main.js"></script>
+    </body>
+  </html>
