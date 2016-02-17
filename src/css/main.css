@@ -1,0 +1,28 @@
+body {
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.full-width {
+	width: 100%
+}
+
+form {
+	width: 50%;
+	margin-left: 25%;
+}
+
+
+
+@media(max-width: 600px) {
+
+	form {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	button {
+		width: 100%;
+	}
+
+}
