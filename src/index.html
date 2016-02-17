@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Web Page</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <section>
+        <form>
+            <label for="email">Email</label>
+            <input type="email"
+                    name="email"
+                    autofocus
+                    require>
+            <label for="password">Password</label>
+            <input type="password"
+                    name="password"
+                    minlength="6"
+                    require>
+            <button>Login</button>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
