@@ -19,8 +19,7 @@ $(document).ready(function(){
 		var inputResult = input();
 
 		if( inputResult === true){
-			alert("Welcome Bro")
-
+			$('section').html('<h1>' + "Welcome Bro" + '</h1>')
 		} else {
 			alert("try again homie")
 		}
