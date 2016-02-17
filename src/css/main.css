@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main section formatting */
+
+section {
+    width: 40%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* Formats the form and login button */
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+input:invalid:focus {
+    border: 3px solid red;
+}
+
+.btn-login {
+    width: 25%;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+/* Formats the welcome message after form submission */
+
+#welcomeMessage {
+    margin-top: 50px;
+}
+
+
+@media (max-width: 500px) {
+    .btn-login {
+        width: 100%;
+    }
+
+    section {
+        width: 90%;
+    }
+}
