@@ -1,0 +1,51 @@
+/*google font*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/*Keep everything in an article so we can just center that.*/
+article {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+form {
+  width: 100%px;
+}
+/*We are using 90% width, so all margin-lefts are 5%*/
+form h1 {
+  margin-left: 5%;
+}
+form label {
+  display: block;
+  margin-left: 5%;
+}
+form input {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+form input:valid {
+  background-color: rgb(209, 255, 207);
+}
+form input:invalid {
+  background-color: rgb(255, 213, 210);
+}
+form input[type="submit"] {
+  box-sizing: border-box;
+  background-color: rgb(207, 207, 207);
+  border: 1px solid rgb(156, 156, 156);
+  width: 100px;
+}
+@media (max-width: 600px) {
+  article {
+    width: 100%;
+  }
+  form input[type="submit"] {
+    width: 90%;
+  }
+}
