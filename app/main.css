@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin-left: 40%;
+  /*width: 75%;*/
+}
+
+#login {
+  font-size: 60px;
+}
+
+#welcome {
+  color: green;
+  font-size: 75px;
+}
+
+@media screen and (max-width: 800px) {
+  #welcome {
+    color: blue;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #login {
+  width: 98vw;
+  }
+  .container {
+    margin: 0;
+  }
+  #email, #password {
+    width: 96vw;
+  }
+  #welcome {
+    color: orange;
+    font-size: 20px;
+  }
+}
