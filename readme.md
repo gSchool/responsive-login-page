@@ -20,6 +20,8 @@ You will be building a responsive login page based on the mockup found in the [m
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 > Write your answer here...
 
+HTML provides a structure for the front end of a project/theDOM, javascript and Jquery allow you to manipulate and append to that structure.
+
 ### Acceptance Criteria:
 
 * The login form must be centered on a wide view
