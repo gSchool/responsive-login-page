@@ -18,7 +18,7 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+HTML is the bones of the DOM, it contains all the elements visible on the page upon load, as well as connections to the CSS and Javascript files. CSS gives the page structure and manipulates the appearance of elements on the DOM. Javascript and its library jQuery make the DOM interactive, and can add to and remove from the DOM. jQuery is a library that enables the developer to write less, particularly when selecting an element on the DOM. 
 
 ### Acceptance Criteria:
 
