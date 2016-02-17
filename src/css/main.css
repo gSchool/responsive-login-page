@@ -1,0 +1,30 @@
+/* add custom styles */
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.forms{
+  display: block;
+}
+form.minimal input[type="email"]:invalid:focus,
+form.minimal input[type="password"]:invalid:focus,
+form.minimal textarea:invalid:focus,
+form.minimal select:invalid:focus { 
+ color:red;}
+
+/*Media Querie
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h3 {
+    text-align:center;
+    margin:0;
+  }
+  .sign-up, .no-access {
+    margin:10px 0;
+  }
+  .login-button {
+    margin-bottom:10px;
+  }
+}
+*/
