@@ -18,7 +18,8 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+
+HTML, JavaScript, the DOM API, and jQuery all come together to make up the front-end of a website. HTML contains the content of the page, JavaScript makes the website do stuff. jQuery is a JavaScript library that makes doing stuff with JavaScript even easier. The DOM API is a representation of the html document and allows the document to be be accessed and changed by JavaScript and other languages.
 
 ### Acceptance Criteria:
 

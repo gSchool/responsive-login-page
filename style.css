@@ -1,0 +1,48 @@
+/* {
+  border: 1px dashed black;
+}*/
+
+* {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3e8e41
+}
+
+input {
+  width: 100%;
+}
+
+/*Does not display until successful login*/
+#welcomeScreen {
+  display: none;
+}
+
+/*The input boxes and button are smaller when screen is bigger*/
+@media (min-width: 401px) {
+  .largeView {
+    margin: auto;
+    width: 30%;
+  }
+}
+
+/*The input boxes and button take up most of the screen when the screen is small*/
+@media (max-width: 400px) {
+  button {
+    width: 100%;
+  }
+  input {
+    width: 98%;
+  }
+}
