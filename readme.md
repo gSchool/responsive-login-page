@@ -18,7 +18,12 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+> HTML is the bricks and mortar of a site. It provides overall structure and functionality
+of the site.  CSS is for styling a site and making it"fancy". Also utilizes pseudo
+effects to let the user know where they are at with the pointer as well as highlighting
+to show the user what page they are on.
+Javascript allows for interactivity of the website ranging from simple
+DOM manipulation to form validation.
 
 ### Acceptance Criteria:
 
