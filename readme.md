@@ -18,7 +18,7 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+* I think HTML is the base or structure of a website, just a Static website. JS and Jquery are what make the website interactive, ie the clicks and different motions that happens on a website, pretty much the thing everyone wants on their site. DOM and API, DOM is how we can use JS to manipulate the HTML or website in the positions. API is a call from the cloud, filled with data we can use on our website, navigating the tools of JS/Jquery to then use the DOM to put the spice on the HTML.
 
 ### Acceptance Criteria:
 
