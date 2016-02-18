@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Login</h1>
+
+    <form>
+      <label>Email:</label><br>
+      <div class="centerHolder">
+        <input type="email" id="email" autofocus required><br>
+      </div>
+      <label>Password:</label><br>
+      <div class="centerHolder">
+        <input type="password" id="password" pattern=".{6,}" required title="6 characters minimum"><br>
+      </div>
+      <div class="centerHolder">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
