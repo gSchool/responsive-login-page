@@ -37,8 +37,8 @@ HTML is the skeleton for the webpage, showing structure and features which are e
 ### Constraints:
 
 * Do not use Bootstrap - done
-* Do not use jQuery to validate forms
-* Create the "Welcome Message" in memory before appending to the DOM.
+* Do not use jQuery to validate forms - done
+* Create the "Welcome Message" in memory before appending to the DOM. - done
 
 ### Objectives
 
