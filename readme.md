@@ -28,7 +28,7 @@ HTML is the skeleton for the webpage, showing structure and features which are e
 * The login button should take up the same width as an input box on a small view - done
 * The password field correctly hides passwords - done
 * HTML5 Form Validation is added to each input field
-  * Email must be correctly formatted
+  * Email must be correctly formatted - done
   * Password must be longer than six characters - done
 * On submission, the view stays the same (i.e. there is no page reload)
 * If the form has no validation errors, the form is removed and a simple welcome message is displayed
