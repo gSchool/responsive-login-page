@@ -20,23 +20,25 @@ You will be building a responsive login page based on the mockup found in the [m
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 > Write your answer here...
 
+HTML is the skeleton for the webpage, showing structure and features which are embellished with CSS and made functional and interactive with javascript and jquery.
+
 ### Acceptance Criteria:
 
-* The login form must be centered on a wide view
-* The login button should take up the same width as an input box on a small view
-* The password field correctly hides passwords
+* The login form must be centered on a wide view - done
+* The login button should take up the same width as an input box on a small view - done
+* The password field correctly hides passwords - done
 * HTML5 Form Validation is added to each input field
-  * Email must be correctly formatted
-  * Password must be longer than six characters
+  * Email must be correctly formatted - done
+  * Password must be longer than six characters - done
 * On submission, the view stays the same (i.e. there is no page reload)
 * If the form has no validation errors, the form is removed and a simple welcome message is displayed
   * Make sure to create a new element in memory for this welcome message
 
 ### Constraints:
 
-* Do not use Bootstrap
-* Do not use jQuery to validate forms
-* Create the "Welcome Message" in memory before appending to the DOM.
+* Do not use Bootstrap - done
+* Do not use jQuery to validate forms - done
+* Create the "Welcome Message" in memory before appending to the DOM. - done
 
 ### Objectives
 
