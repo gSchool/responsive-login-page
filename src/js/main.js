@@ -7,10 +7,21 @@ $("form").on("submit", function(event){
 
 	var email = $("#email").val();
 	var password = $("#password").val();
-	console.log(email, password)
+	console.log(email, password);
 
-// empty inputs - not working
-	$("#email").text("");
-	$("#password").text("");
+validatedForm(email, password);
 
 });
+
+
+function validatedForm(email, password){
+	if ( email.indexOf(".") !== email.length -1 && password.length > 5) {
+		$("form").toggleClass("hide");
+		return true;
+	} else {
+		$("#email").addClass("error");
+		$("#password").addClass("error");
+		return false;
+	}
+}
+
