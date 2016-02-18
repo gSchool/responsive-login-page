@@ -21,6 +21,10 @@ form {
 	box-shadow: 1px 1px 2px 2px red;
 }
 
+.welcome {
+	font-size: 5rem;
+}
+
 @media(max-width: 600px) {
 
 	form {

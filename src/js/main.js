@@ -11,12 +11,13 @@ $("form").on("submit", function(event){
 
 validatedForm(email, password);
 
+
 });
 
-
+var welcome = $("<h1 class='welcome'>"+'Welcome!'+"</h1>")
 function validatedForm(email, password){
 	if ( email.indexOf(".") !== email.length -1 && password.length > 5) {
-		$("form").toggleClass("hide");
+		$("form").html(welcome);
 		return true;
 	} else {
 		$("#email").addClass("error");
