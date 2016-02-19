@@ -9,11 +9,13 @@
       <section>
           <form class="signin">
             <h1>Login</h1>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" required><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" maxlength="6" required><br>
-            <button type="submit" class="login">Login</button>
+            <fieldset>
+              <label for="email">Email</label><br>
+              <input type="email" id="email" required><br>
+              <label for="password">Password</label><br>
+              <input type="password" id="password" minlength="6" required><br>
+              <button type="submit" class="login">Login</button>
+            </fieldset>
           </form>
       </section>
     </div>
