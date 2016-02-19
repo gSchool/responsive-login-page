@@ -20,6 +20,11 @@ You will be building a responsive login page based on the mockup found in the [m
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 > Write your answer here...
 
+The DOM API is a programming interface that connects scripts to the HTML. The DOM API parses the HTML and renders and object model
+in a tree-like structure. Javascript and jQuery allow us to
+manipulate the HTML that is returned by the DOM API.
+
+
 ### Acceptance Criteria:
 
 * The login form must be centered on a wide view
