@@ -18,7 +18,10 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+
+They all work together to enhance a user's experience. The DOM is the base layer - grouping the page into sections or nodes. The HTML is then used to render elements like text, images and forms on the page. Javascript and jQuery can then be called to change, create, style, and submit the page elements.  
+
+
 
 ### Acceptance Criteria:
 

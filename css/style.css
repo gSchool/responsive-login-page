@@ -1,0 +1,58 @@
+/*global elements*/
+
+body {
+font-family: "verdana";
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+/*form */
+
+.signin {
+    margin-left: 160px;
+}
+
+input {
+    border: 1px solid black; 
+    padding: 5px;
+    margin: 15px 0;
+    width: 50%;
+}
+
+ button {   
+  background-color: #ccc;
+  padding: 10px 40px;
+  border: 1px double black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/*media query*/
+
+@media screen and (max-width:500px) {
+    button {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+    .signin {
+      margin-left: 0px;
+    }
+}
+
+/*welcome message*/
+
+.welcome {
+  text-align: center;
+  color: 666;
+  padding: 10px;
+  border: 2px double blue;
+}
+
