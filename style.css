@@ -1,0 +1,51 @@
+/* Global Reset */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Font Styling */
+
+h1, label {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Center the main body content */
+
+section {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  height: 100%;
+}
+
+/* Default Desktop design for form elements */
+
+input, label {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  width: 35%;
+  height: 30px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+/* Mobile Responsive design */
+
+@media (max-width: 768px) {
+  section {
+    margin: 0;
+    margin-left: 20px;
+    width: 90%;
+  }
+  input, button {
+    width: 90%;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
