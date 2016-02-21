@@ -18,13 +18,13 @@ You will be building a responsive login page based on the mockup found in the [m
 1. Make a Pull Request against this repository
 
 __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
-> Write your answer here...
+> HTML provides the framework and instructions for the display of a web page.  It is not responsive on its own.  JavaScript provides instructions for the functionality of a web page; it allows the page to become interactive. jQuery is a JS library that simplifies commands so that the DOM can be manipulated with simplified code.  The DOM is a representation of a web page, but can be altered by JS beyond the initial HTML instructions.
 
 ### Acceptance Criteria:
 
 * The login form must be centered on a wide view
 * The login button should take up the same width as an input box on a small view
-* The password field correctly hides passwords
+** The password field correctly hides passwords
 * HTML5 Form Validation is added to each input field
   * Email must be correctly formatted
   * Password must be longer than six characters
