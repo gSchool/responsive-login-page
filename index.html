@@ -11,13 +11,15 @@
     <header>
       <h1>Login</h1>
     </header>
-    <article>
-      <label for="email">Email:</label><br>
-        <input type="email"><br>
-      <label for="text">Password:</label><br>
-        <input type="text"><br>
-      <input type="submit" value="Login">
-    </article>
+    <section>
+      <form>
+        <label for="email">Email:</label><br>
+          <input type="email" required><br>
+        <label for="text">Password:</label><br>
+          <input type="password" name="psw" minlength="6" required><br>
+        <input type="submit" value="Login" id="login">
+    </form>
+  </section>
       <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <script src="./main.js"></script>

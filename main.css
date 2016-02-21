@@ -3,7 +3,7 @@ body {
   margin-left: 40%;
 }
 
-input[type = text] {
+input[type = password] {
   font-size: 20px;
   width: 300px;
   margin-bottom: 5px;
@@ -22,5 +22,8 @@ input[type = submit] {
 @media only screen and (max-width: 500px) {
     input[type = submit] {
         width: 300px;
+    }
+    body {
+      margin-left: 15%;
     }
 }
