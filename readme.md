@@ -22,13 +22,13 @@ __Discuss the relationship between HTML, JavaScript, the DOM API, and jQuery:__
 
 ### Acceptance Criteria:
 
-* The login form must be centered on a wide view
-* The login button should take up the same width as an input box on a small view
-* The password field correctly hides passwords
-* HTML5 Form Validation is added to each input field
-  * Email must be correctly formatted
-  * Password must be longer than six characters
-* On submission, the view stays the same (i.e. there is no page reload)
+* CHECK The login form must be centered on a wide view
+* CHECK The login button should take up the same width as an input box on a small view
+* CHECK The password field correctly hides passwords
+* CHECK HTML5 Form Validation is added to each input field
+  * CHECK Email must be correctly formatted
+  * CHECK Password must be longer than six characters
+* CHECK On submission, the view stays the same (i.e. there is no page reload)
 * If the form has no validation errors, the form is removed and a simple welcome message is displayed
   * Make sure to create a new element in memory for this welcome message
 
