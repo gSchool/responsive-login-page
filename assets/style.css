@@ -1,0 +1,69 @@
+  body {
+  margin: auto;
+  width: 100%;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 1%;
+}
+
+section {
+  height: 100vh;
+}
+
+.login-window {
+  background: #16BAC5;
+  margin: 0 auto;
+  min-width: 500px;
+}
+
+.login-header {
+  text-align: center;
+  font-size: 200%;
+}
+
+.login-form {
+  box-sizing: border-box;
+  padding-bottom: 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.login-window input[type="text"], .login-window input[type="password"] {
+  border: none;
+  width: 80%;
+  line-height: 3em;
+  font-family: sans-serif;
+  border: 2px solid #f2f2f2;
+  outline: none;
+}
+
+button {
+  border: none;
+  margin-top: 1%;
+  background: #5FBFF9;
+  height: 30px;
+  width: 80%;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+
+/*Media Querie*/
+
+@media only screen and (max-width: 530px) {
+  section, .login-form, .login-header {
+    text-align: center;
+    margin: 0;
+    width: 60vw;
+  }
