@@ -21,7 +21,6 @@ function getFormData(event) {
   const passwordValue = validPassword(userPassword);
   // If password and email address are valid hide the form and display the success message
   if (emailValue == true && passwordValue == true) {
-    console.log("dafaq")
     hideForm(true);
     createWelcomeMessage();
   }
@@ -29,21 +28,13 @@ function getFormData(event) {
 
 // Validation for email address
 function validEmailAddress(userEmailAddress) {
-  var filter = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  var filter = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; //Googled not 100% what this regex is doing
   if (filter.test(userEmailAddress)) {
     return true;
   } else {
-    alert("You have entered an invalid email address!");
+    alert("Invalid email address! Please enter a valid email.");
     return false;
   }
-}
-// Part of validation of email address
-
-function checkEmail() {
-  if (document.layers || document.getElementById || document.all)
-    return validEmailAddress()
-  else
-    return true
 }
 
 // Validation for password length
